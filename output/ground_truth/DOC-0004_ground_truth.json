@@ -1,0 +1,16 @@
+{
+  "document_id": "DOC-0004",
+  "expected_fields": {
+    "patient_name": "Rohan Verma",
+    "test_name": "Liver Function Test",
+    "diagnosis": "Mild hypothyroidism",
+    "medication": "Ferrous sulfate 325 mg",
+    "doctor": "Dr. Ananya Rao",
+    "encounter_id": "1C7E5366"
+  },
+  "expected_answer_examples": {
+    "What is the diagnosis?": "Mild hypothyroidism",
+    "Who is the doctor?": "Dr. Ananya Rao",
+    "What medication was prescribed?": "Ferrous sulfate 325 mg"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "document_id": "DOC-0005",
+  "expected_fields": {
+    "patient_name": "Sneha Iyer",
+    "test_name": "Renal Function Panel",
+    "diagnosis": "Mild hypothyroidism",
+    "medication": "Levothyroxine 50 mcg",
+    "doctor": "Dr. Rahul Menon",
+    "encounter_id": "0EF82C77"
+  },
+  "expected_answer_examples": {
+    "What is the diagnosis?": "Mild hypothyroidism",
+    "Who is the doctor?": "Dr. Rahul Menon",
+    "What medication was prescribed?": "Levothyroxine 50 mcg"
+  }
+}

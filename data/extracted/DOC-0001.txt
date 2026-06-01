@@ -1,0 +1,16 @@
+Document ID: DOC-0001
+Patient Name: Priya Nair
+Test Name: Thyroid Profile
+Diagnosis: Viral fever
+Medication: Metformin 500 mg
+Doctor: Dr. Vikram Sen
+Encounter ID: D196DD63
+
+Narrative:
+Patient Priya Nair visited the clinic for evaluation. The ordered test was Thyroid Profile. The working diagnosis was Viral fever. Prescribed medication: Metformin 500 mg. Consulting physician: Dr. Vikram Sen. Encounter ID: D196DD63.
+
+Lab Values:
+hemoglobin_g_dl: 11.0
+wbc_count: 11798
+platelet_count: 149336
+glucose_mg_dl: 84

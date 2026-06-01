@@ -1,0 +1,16 @@
+{
+  "document_id": "DOC-0009",
+  "expected_fields": {
+    "patient_name": "Aarav Sharma",
+    "test_name": "Thyroid Profile",
+    "diagnosis": "Iron deficiency anemia",
+    "medication": "Metformin 500 mg",
+    "doctor": "Dr. Vikram Sen",
+    "encounter_id": "0E7105EB"
+  },
+  "expected_answer_examples": {
+    "What is the diagnosis?": "Iron deficiency anemia",
+    "Who is the doctor?": "Dr. Vikram Sen",
+    "What medication was prescribed?": "Metformin 500 mg"
+  }
+}

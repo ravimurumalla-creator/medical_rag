@@ -1,0 +1,17 @@
+{
+  "document_id": "DOC-0005",
+  "document_type": "synthetic_medical_record",
+  "patient_name": "Sneha Iyer",
+  "test_name": "Renal Function Panel",
+  "diagnosis": "Mild hypothyroidism",
+  "medication": "Levothyroxine 50 mcg",
+  "doctor": "Dr. Rahul Menon",
+  "encounter_id": "0EF82C77",
+  "lab_values": {
+    "hemoglobin_g_dl": 12.4,
+    "wbc_count": 8069,
+    "platelet_count": 265206,
+    "glucose_mg_dl": 73
+  },
+  "narrative": "Patient Sneha Iyer visited the clinic for evaluation. The ordered test was Renal Function Panel. The working diagnosis was Mild hypothyroidism. Prescribed medication: Levothyroxine 50 mcg. Consulting physician: Dr. Rahul Menon. Encounter ID: 0EF82C77."
+}

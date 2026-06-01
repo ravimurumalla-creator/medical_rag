@@ -1,0 +1,16 @@
+Document ID: DOC-0010
+Patient Name: Aarav Sharma
+Test Name: Lipid Profile
+Diagnosis: Iron deficiency anemia
+Medication: Levothyroxine 50 mcg
+Doctor: Dr. Neha Kapoor
+Encounter ID: F3A1D9DF
+
+Narrative:
+Patient Aarav Sharma visited the clinic for evaluation. The ordered test was Lipid Profile. The working diagnosis was Iron deficiency anemia. Prescribed medication: Levothyroxine 50 mcg. Consulting physician: Dr. Neha Kapoor. Encounter ID: F3A1D9DF.
+
+Lab Values:
+hemoglobin_g_dl: 11.7
+wbc_count: 6284
+platelet_count: 270750
+glucose_mg_dl: 189

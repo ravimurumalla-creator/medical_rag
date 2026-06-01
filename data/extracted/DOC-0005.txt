@@ -1,0 +1,16 @@
+Document ID: DOC-0005
+Patient Name: Sneha Iyer
+Test Name: Renal Function Panel
+Diagnosis: Mild hypothyroidism
+Medication: Levothyroxine 50 mcg
+Doctor: Dr. Rahul Menon
+Encounter ID: 0EF82C77
+
+Narrative:
+Patient Sneha Iyer visited the clinic for evaluation. The ordered test was Renal Function Panel. The working diagnosis was Mild hypothyroidism. Prescribed medication: Levothyroxine 50 mcg. Consulting physician: Dr. Rahul Menon. Encounter ID: 0EF82C77.
+
+Lab Values:
+hemoglobin_g_dl: 12.4
+wbc_count: 8069
+platelet_count: 265206
+glucose_mg_dl: 73

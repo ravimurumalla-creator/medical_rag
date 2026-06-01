@@ -1,0 +1,16 @@
+Document ID: DOC-0003
+Patient Name: Rohan Verma
+Test Name: Liver Function Test
+Diagnosis: Mild hypothyroidism
+Medication: Ferrous sulfate 325 mg
+Doctor: Dr. Vikram Sen
+Encounter ID: 838DCBB7
+
+Narrative:
+Patient Rohan Verma visited the clinic for evaluation. The ordered test was Liver Function Test. The working diagnosis was Mild hypothyroidism. Prescribed medication: Ferrous sulfate 325 mg. Consulting physician: Dr. Vikram Sen. Encounter ID: 838DCBB7.
+
+Lab Values:
+hemoglobin_g_dl: 15.5
+wbc_count: 4689
+platelet_count: 230562
+glucose_mg_dl: 163

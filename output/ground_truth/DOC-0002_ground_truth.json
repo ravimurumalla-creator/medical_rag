@@ -1,0 +1,16 @@
+{
+  "document_id": "DOC-0002",
+  "expected_fields": {
+    "patient_name": "Aarav Sharma",
+    "test_name": "Liver Function Test",
+    "diagnosis": "Viral fever",
+    "medication": "Ferrous sulfate 325 mg",
+    "doctor": "Dr. Rahul Menon",
+    "encounter_id": "D5B2A07A"
+  },
+  "expected_answer_examples": {
+    "What is the diagnosis?": "Viral fever",
+    "Who is the doctor?": "Dr. Rahul Menon",
+    "What medication was prescribed?": "Ferrous sulfate 325 mg"
+  }
+}

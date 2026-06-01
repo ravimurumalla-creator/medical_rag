@@ -1,0 +1,17 @@
+{
+  "document_id": "DOC-0006",
+  "document_type": "synthetic_medical_record",
+  "patient_name": "Sneha Iyer",
+  "test_name": "Liver Function Test",
+  "diagnosis": "Type 2 diabetes mellitus",
+  "medication": "Ferrous sulfate 325 mg",
+  "doctor": "Dr. Neha Kapoor",
+  "encounter_id": "F562535D",
+  "lab_values": {
+    "hemoglobin_g_dl": 14.1,
+    "wbc_count": 6971,
+    "platelet_count": 350560,
+    "glucose_mg_dl": 184
+  },
+  "narrative": "Patient Sneha Iyer visited the clinic for evaluation. The ordered test was Liver Function Test. The working diagnosis was Type 2 diabetes mellitus. Prescribed medication: Ferrous sulfate 325 mg. Consulting physician: Dr. Neha Kapoor. Encounter ID: F562535D."
+}

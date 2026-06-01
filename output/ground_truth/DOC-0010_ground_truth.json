@@ -1,0 +1,16 @@
+{
+  "document_id": "DOC-0010",
+  "expected_fields": {
+    "patient_name": "Aarav Sharma",
+    "test_name": "Lipid Profile",
+    "diagnosis": "Iron deficiency anemia",
+    "medication": "Levothyroxine 50 mcg",
+    "doctor": "Dr. Neha Kapoor",
+    "encounter_id": "F3A1D9DF"
+  },
+  "expected_answer_examples": {
+    "What is the diagnosis?": "Iron deficiency anemia",
+    "Who is the doctor?": "Dr. Neha Kapoor",
+    "What medication was prescribed?": "Levothyroxine 50 mcg"
+  }
+}

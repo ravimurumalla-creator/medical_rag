@@ -1,0 +1,17 @@
+{
+  "document_id": "DOC-0002",
+  "document_type": "synthetic_medical_record",
+  "patient_name": "Aarav Sharma",
+  "test_name": "Liver Function Test",
+  "diagnosis": "Viral fever",
+  "medication": "Ferrous sulfate 325 mg",
+  "doctor": "Dr. Rahul Menon",
+  "encounter_id": "D5B2A07A",
+  "lab_values": {
+    "hemoglobin_g_dl": 10.9,
+    "wbc_count": 9089,
+    "platelet_count": 418822,
+    "glucose_mg_dl": 77
+  },
+  "narrative": "Patient Aarav Sharma visited the clinic for evaluation. The ordered test was Liver Function Test. The working diagnosis was Viral fever. Prescribed medication: Ferrous sulfate 325 mg. Consulting physician: Dr. Rahul Menon. Encounter ID: D5B2A07A."
+}

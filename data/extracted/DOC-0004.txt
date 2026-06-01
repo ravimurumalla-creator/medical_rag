@@ -1,0 +1,16 @@
+Document ID: DOC-0004
+Patient Name: Rohan Verma
+Test Name: Liver Function Test
+Diagnosis: Mild hypothyroidism
+Medication: Ferrous sulfate 325 mg
+Doctor: Dr. Ananya Rao
+Encounter ID: 1C7E5366
+
+Narrative:
+Patient Rohan Verma visited the clinic for evaluation. The ordered test was Liver Function Test. The working diagnosis was Mild hypothyroidism. Prescribed medication: Ferrous sulfate 325 mg. Consulting physician: Dr. Ananya Rao. Encounter ID: 1C7E5366.
+
+Lab Values:
+hemoglobin_g_dl: 13.7
+wbc_count: 13328
+platelet_count: 392760
+glucose_mg_dl: 75

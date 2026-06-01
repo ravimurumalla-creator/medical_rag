@@ -1,0 +1,16 @@
+{
+  "document_id": "DOC-0006",
+  "expected_fields": {
+    "patient_name": "Sneha Iyer",
+    "test_name": "Liver Function Test",
+    "diagnosis": "Type 2 diabetes mellitus",
+    "medication": "Ferrous sulfate 325 mg",
+    "doctor": "Dr. Neha Kapoor",
+    "encounter_id": "F562535D"
+  },
+  "expected_answer_examples": {
+    "What is the diagnosis?": "Type 2 diabetes mellitus",
+    "Who is the doctor?": "Dr. Neha Kapoor",
+    "What medication was prescribed?": "Ferrous sulfate 325 mg"
+  }
+}

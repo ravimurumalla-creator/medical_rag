@@ -1,0 +1,17 @@
+{
+  "document_id": "DOC-0009",
+  "document_type": "synthetic_medical_record",
+  "patient_name": "Aarav Sharma",
+  "test_name": "Thyroid Profile",
+  "diagnosis": "Iron deficiency anemia",
+  "medication": "Metformin 500 mg",
+  "doctor": "Dr. Vikram Sen",
+  "encounter_id": "0E7105EB",
+  "lab_values": {
+    "hemoglobin_g_dl": 12.4,
+    "wbc_count": 8268,
+    "platelet_count": 233338,
+    "glucose_mg_dl": 217
+  },
+  "narrative": "Patient Aarav Sharma visited the clinic for evaluation. The ordered test was Thyroid Profile. The working diagnosis was Iron deficiency anemia. Prescribed medication: Metformin 500 mg. Consulting physician: Dr. Vikram Sen. Encounter ID: 0E7105EB."
+}

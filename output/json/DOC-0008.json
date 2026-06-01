@@ -1,0 +1,17 @@
+{
+  "document_id": "DOC-0008",
+  "document_type": "synthetic_medical_record",
+  "patient_name": "Rohan Verma",
+  "test_name": "Liver Function Test",
+  "diagnosis": "Mild hypothyroidism",
+  "medication": "Ferrous sulfate 325 mg",
+  "doctor": "Dr. Rahul Menon",
+  "encounter_id": "C706A1ED",
+  "lab_values": {
+    "hemoglobin_g_dl": 13.0,
+    "wbc_count": 4743,
+    "platelet_count": 389933,
+    "glucose_mg_dl": 167
+  },
+  "narrative": "Patient Rohan Verma visited the clinic for evaluation. The ordered test was Liver Function Test. The working diagnosis was Mild hypothyroidism. Prescribed medication: Ferrous sulfate 325 mg. Consulting physician: Dr. Rahul Menon. Encounter ID: C706A1ED."
+}

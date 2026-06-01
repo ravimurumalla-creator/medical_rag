@@ -1,0 +1,16 @@
+Document ID: DOC-0009
+Patient Name: Aarav Sharma
+Test Name: Thyroid Profile
+Diagnosis: Iron deficiency anemia
+Medication: Metformin 500 mg
+Doctor: Dr. Vikram Sen
+Encounter ID: 0E7105EB
+
+Narrative:
+Patient Aarav Sharma visited the clinic for evaluation. The ordered test was Thyroid Profile. The working diagnosis was Iron deficiency anemia. Prescribed medication: Metformin 500 mg. Consulting physician: Dr. Vikram Sen. Encounter ID: 0E7105EB.
+
+Lab Values:
+hemoglobin_g_dl: 12.4
+wbc_count: 8268
+platelet_count: 233338
+glucose_mg_dl: 217

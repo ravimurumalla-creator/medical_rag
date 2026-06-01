@@ -1,0 +1,16 @@
+{
+  "document_id": "DOC-0001",
+  "expected_fields": {
+    "patient_name": "Priya Nair",
+    "test_name": "Thyroid Profile",
+    "diagnosis": "Viral fever",
+    "medication": "Metformin 500 mg",
+    "doctor": "Dr. Vikram Sen",
+    "encounter_id": "D196DD63"
+  },
+  "expected_answer_examples": {
+    "What is the diagnosis?": "Viral fever",
+    "Who is the doctor?": "Dr. Vikram Sen",
+    "What medication was prescribed?": "Metformin 500 mg"
+  }
+}

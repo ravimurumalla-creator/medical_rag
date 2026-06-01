@@ -1,0 +1,16 @@
+Document ID: DOC-0007
+Patient Name: Rohan Verma
+Test Name: Thyroid Profile
+Diagnosis: Viral fever
+Medication: Ferrous sulfate 325 mg
+Doctor: Dr. Ananya Rao
+Encounter ID: 29D7B437
+
+Narrative:
+Patient Rohan Verma visited the clinic for evaluation. The ordered test was Thyroid Profile. The working diagnosis was Viral fever. Prescribed medication: Ferrous sulfate 325 mg. Consulting physician: Dr. Ananya Rao. Encounter ID: 29D7B437.
+
+Lab Values:
+hemoglobin_g_dl: 10.0
+wbc_count: 12733
+platelet_count: 351269
+glucose_mg_dl: 132

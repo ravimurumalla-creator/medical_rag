@@ -1,0 +1,16 @@
+Document ID: DOC-0002
+Patient Name: Aarav Sharma
+Test Name: Liver Function Test
+Diagnosis: Viral fever
+Medication: Ferrous sulfate 325 mg
+Doctor: Dr. Rahul Menon
+Encounter ID: D5B2A07A
+
+Narrative:
+Patient Aarav Sharma visited the clinic for evaluation. The ordered test was Liver Function Test. The working diagnosis was Viral fever. Prescribed medication: Ferrous sulfate 325 mg. Consulting physician: Dr. Rahul Menon. Encounter ID: D5B2A07A.
+
+Lab Values:
+hemoglobin_g_dl: 10.9
+wbc_count: 9089
+platelet_count: 418822
+glucose_mg_dl: 77

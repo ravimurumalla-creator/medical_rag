@@ -1,0 +1,17 @@
+{
+  "document_id": "DOC-0010",
+  "document_type": "synthetic_medical_record",
+  "patient_name": "Aarav Sharma",
+  "test_name": "Lipid Profile",
+  "diagnosis": "Iron deficiency anemia",
+  "medication": "Levothyroxine 50 mcg",
+  "doctor": "Dr. Neha Kapoor",
+  "encounter_id": "F3A1D9DF",
+  "lab_values": {
+    "hemoglobin_g_dl": 11.7,
+    "wbc_count": 6284,
+    "platelet_count": 270750,
+    "glucose_mg_dl": 189
+  },
+  "narrative": "Patient Aarav Sharma visited the clinic for evaluation. The ordered test was Lipid Profile. The working diagnosis was Iron deficiency anemia. Prescribed medication: Levothyroxine 50 mcg. Consulting physician: Dr. Neha Kapoor. Encounter ID: F3A1D9DF."
+}
