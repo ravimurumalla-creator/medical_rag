@@ -1,9 +1,14 @@
 from pathlib import Path
+import os
 
+from dotenv import load_dotenv
+
+load_dotenv()
 import boto3
 from botocore.exceptions import ClientError
 
 from app.core.config import get_settings
+
 
 
 class S3Service:
@@ -11,9 +16,10 @@ class S3Service:
         self.settings = get_settings()
         self.client = boto3.client(
             "s3",
-            region_name=self.settings.AWS_REGION,
+            region_name=os.getenv("AWS_REGION"),
         )
-        self.bucket_name = self.settings.S3_BUCKET_NAME
+        self.bucket_name = os.getenv("S3_BUCKET_NAME", "medragbucket")
+        
 
     def upload_file(self, file_path: Path, object_name: str | None = None) -> str:
         if not file_path.exists():

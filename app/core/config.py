@@ -8,7 +8,7 @@ class Settings(BaseSettings):
     APP_VERSION: str = "0.1.0"
 
     AWS_REGION: str = "us-east-1"
-    S3_BUCKET_NAME: str = "your-bucket-name"
+    S3_BUCKET_NAME: str = "medragbucket"
     S3_RAW_PREFIX: str = "raw/"
 
     BEDROCK_MODEL_ID: str = "amazon.nova-micro-v1:0"

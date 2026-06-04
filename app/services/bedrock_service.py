@@ -1,11 +1,21 @@
 import json
 import boto3
 
-class BedrockService:
-    def __init__(self, model_id: str, region_name: str = "us-east-1"):
-        self.model_id = "amazon.nova-micro-v1:0"
-        self.client = boto3.client("bedrock-runtime", region_name=region_name)
+import boto3
+from app.core.config import get_settings
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
+
+class BedrockService:
+    def __init__(self, model_id: str | None = None):
+        settings = get_settings()
+        self.model_id = model_id or settings.BEDROCK_MODEL_ID
+        self.client = boto3.client(
+            "bedrock-runtime",
+            region_name=settings.AWS_REGION,
+        )
     def ask_question(self, context: str, question: str) -> str:
         prompt = (
             "Answer using only the provided document context. "

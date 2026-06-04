@@ -5,7 +5,10 @@ import boto3
 from botocore.exceptions import ClientError
 
 from app.core.config import get_settings
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
 
 class TextractService:
     def __init__(self):
