@@ -1,26 +1,20 @@
+import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import os
-from dotenv import load_dotenv
 
-load_dotenv()
+AMPLIFY_URL = os.getenv("AMPLIFY_URL", "").rstrip("/")
 
-from app.api.v1.router import api_router
+ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+]
 
-app = FastAPI(title="Medical Document Intelligence API")
+if AMPLIFY_URL:
+    ALLOWED_ORIGINS.append(AMPLIFY_URL)
 
-# Enable CORS for React dev server
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=ALLOWED_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# Mount api_router at /api/v1
-app.include_router(api_router, prefix="/api/v1")
-
-@app.get("/")
-async def root():
-    return {"message": "API is running"}
