@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import os
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -11,7 +10,7 @@ app = FastAPI(title="Medical Document Intelligence API")
 
 ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://main.d32r8pqx8hfmkp.amplifyapp.com/",  # your Amplify URL (replace)
+    "https://main.d32r8pqx8hfmkp.amplifyapp.com",
 ]
 
 app.add_middleware(
@@ -22,8 +21,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
-# Mount api_router at /api/v1
 app.include_router(api_router, prefix="/api/v1")
 
 @app.get("/")
